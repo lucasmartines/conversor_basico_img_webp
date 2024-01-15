@@ -41,7 +41,7 @@ class WebpMyGenerator
 
                     $imagecreatefrom  = $read_image_from($atual);  
 
-                    imagewebp($imagecreatefrom,  ROOT_DIR . "/output/$filename.webp", 100);
+                    imagewebp($imagecreatefrom,  ROOT_DIR . "/output/$filename.webp", IMAGE_QUALITY );
 
                     echo "imagem: $filename gerado com sucesso" . PHP_EOL;
                 }
