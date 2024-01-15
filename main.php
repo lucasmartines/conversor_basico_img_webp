@@ -11,7 +11,6 @@ if( !file_exists( __DIR__ . "/input")){
 }
 
 
-$lista_dirs = glob(__DIR__ . "/input/**");
 
 function select_witch_method_of_conversion_webp($extension){
    
@@ -29,6 +28,7 @@ function select_witch_method_of_conversion_webp($extension){
     }
 }
 
+$lista_dirs = glob(__DIR__ . "/input/**");
 
 foreach($lista_dirs as $atual)
 {

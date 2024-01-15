@@ -6,6 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit2b33dd7d7a4fd2e8ca3bd3d16b41a5cf
 {
+    public static $files = array (
+        'dc3b84cdc31d00b409096237233fe97b' => __DIR__ . '/../..' . '/helpers/utils.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'L' => 
         array (
@@ -36,6 +40,7 @@ class ComposerStaticInit2b33dd7d7a4fd2e8ca3bd3d16b41a5cf
         'CodeBlog\\ToWebP\\Convert\\Make' => __DIR__ . '/..' . '/codeblog/conveter-php-webp/src/Convert/Make.php',
         'CodeBlog\\ToWebP\\ToWebP' => __DIR__ . '/..' . '/codeblog/conveter-php-webp/src/ToWebP.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Lucasmartines\\Webpystem\\WebpMyGenerator' => __DIR__ . '/../..' . '/src/WebpMyGenerator.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

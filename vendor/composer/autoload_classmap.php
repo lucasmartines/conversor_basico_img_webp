@@ -13,4 +13,5 @@ return array(
     'CodeBlog\\ToWebP\\Convert\\Make' => $vendorDir . '/codeblog/conveter-php-webp/src/Convert/Make.php',
     'CodeBlog\\ToWebP\\ToWebP' => $vendorDir . '/codeblog/conveter-php-webp/src/ToWebP.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Lucasmartines\\Webpystem\\WebpMyGenerator' => $baseDir . '/src/WebpMyGenerator.php',
 );

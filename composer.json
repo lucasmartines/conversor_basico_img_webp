@@ -3,7 +3,10 @@
     "autoload": {
         "psr-4": {
             "Lucasmartines\\Webpystem\\": "src/"
-        }
+        },
+        "files":[
+            "helpers/utils.php"
+        ]
     },
     "authors": [
         {
@@ -16,7 +19,7 @@
     },
     "scripts": {
         "start":[
-            "php main.php"
+            "php index.php"
         ]
     }
 }
