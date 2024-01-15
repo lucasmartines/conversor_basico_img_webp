@@ -1,7 +1,17 @@
 <?php
 
-$lista_dirs = glob(__DIR__ . "/input/**");
 
+if( !file_exists( __DIR__ . "/output")){
+    mkdir(__DIR__ . "/output");
+}
+
+if( !file_exists( __DIR__ . "/input")){
+    mkdir(__DIR__ . "/input");
+    throw new Exception("Input not exists");
+}
+
+
+$lista_dirs = glob(__DIR__ . "/input/**");
 
 function select_witch_method_of_conversion_webp($extension){
    
