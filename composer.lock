@@ -1,0 +1,76 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ab1b43f00d698ec764840b6766311baf",
+    "packages": [
+        {
+            "name": "codeblog/conveter-php-webp",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/whallysson/converter-php-webp.git",
+                "reference": "3a84c366c00c99a406110532fc9738df22656eec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/whallysson/converter-php-webp/zipball/3a84c366c00c99a406110532fc9738df22656eec",
+                "reference": "3a84c366c00c99a406110532fc9738df22656eec",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CodeBlog\\ToWebP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Whallysson Avelino",
+                    "email": "whallyssonallain@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easy WebP conversion library for PHP",
+            "homepage": "http://www.codeblog.com.br",
+            "keywords": [
+                "CodeBlog",
+                "Webp",
+                "cwebp",
+                "gd",
+                "image conversion",
+                "images",
+                "imagick",
+                "jpg",
+                "jpg2webp",
+                "php webp",
+                "png",
+                "png2webp"
+            ],
+            "support": {
+                "issues": "https://github.com/whallysson/converter-php-webp/issues",
+                "source": "https://github.com/whallysson/converter-php-webp/tree/v1.0.4"
+            },
+            "time": "2020-05-17T13:08:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

@@ -1,0 +1,22 @@
+{
+    "name": "lucasmartines/webpystem",
+    "autoload": {
+        "psr-4": {
+            "Lucasmartines\\Webpystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lucasmartines",
+            "email": "39931785+lucasmartines@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        
+    },
+    "scripts": {
+        "start":[
+            "php main.php"
+        ]
+    }
+}
