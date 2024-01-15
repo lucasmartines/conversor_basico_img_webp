@@ -5,6 +5,7 @@
             "Lucasmartines\\Webpystem\\": "src/"
         },
         "files":[
+            "config.php",
             "helpers/utils.php"
         ]
     },
