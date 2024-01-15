@@ -26,7 +26,7 @@ class WebpMyGenerator
 
     }    
 
-    /* fetch input directory for images then save into output  */
+    /* fetch from input directory for images then save into output  */
     function run(){
         
             $lista_dirs = glob(ROOT_DIR . "/input/**");
