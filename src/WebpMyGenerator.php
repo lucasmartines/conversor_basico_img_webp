@@ -1,9 +1,18 @@
 <?php 
+/**
+* Developer Lucas Martines
+*/
 
 namespace Lucasmartines\Webpystem; 
 
+
+
+/**
+ * Method that generate webp from input to output, it supports png, jpg, jpeg, gif
+ */
 class WebpMyGenerator
 {
+    /** configure input and output directory */
     public function __construct(){
         
         if( !file_exists( ROOT_DIR . "/output")){
@@ -17,7 +26,7 @@ class WebpMyGenerator
 
     }    
 
-
+    /* fetch input directory for images then save into output  */
     function run(){
         
             $lista_dirs = glob(ROOT_DIR . "/input/**");
